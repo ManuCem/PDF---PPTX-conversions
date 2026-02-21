@@ -1,15 +1,15 @@
-# 🚀 Enterprise PDF & PPTX Automation Suite
+# 🚀 PDF & PowerPoint Automation Tool
 
-A high-efficiency, recursive automation tool designed for digital transformation workflows. This suite solves the common "Commercial Watermark" and "Batch Processing" bottlenecks found in standard document conversion tasks.
+A fast and automatic tool designed for digital business tasks. This tool solves common problems like "Watermarks" and "Batch Processing" found in other conversion programs.
 
 ## 🛠️ Features
-- **Zero Watermarks**: Uses Windows COM Automation to leverage native PowerPoint rendering.
-- **Recursive Processing**: Automatically scans nested folders and subdirectories.
-- **Bulk & Manual Modes**: Choose between high-speed automated deletion or per-file confirmation.
-- **Intelligent Page Mapping**: Automatically detects PDF page counts for seamless slide generation.
+- **No Watermarks**: Uses standard PowerPoint features to make clean files without extra logos.
+- **Automatic Folder Scanning**: Automatically looks through all your folders and subfolders for files.
+- **Fast & Manual Options**: Choose between fast automatic processing or checking each file yourself.
+- **Automatic Page Counting**: Automatically finds the number of pages in a PDF to create the right amount of slides.
 
 ## 📦 Installation
-1. Ensure you have **Microsoft PowerPoint** installed.
-2. Install the required Python dependencies:
+1. Make sure you have **Microsoft PowerPoint** installed.
+2. Install the required Python libraries:
 ```bash
 pip install pymupdf comtypes pdf2pptx
